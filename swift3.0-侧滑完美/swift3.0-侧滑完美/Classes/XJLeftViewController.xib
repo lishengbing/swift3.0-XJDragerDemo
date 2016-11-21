@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XJLeftViewController" customModule="swift3_0_侧滑完美" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="Tj7-Az-roA" id="3ca-r5-V8b"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="439" height="450"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3wF-Td-hbx">
+                    <rect key="frame" x="0.0" y="0.0" width="439" height="64"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="37T-DC-HMc">
+                            <rect key="frame" x="188.5" y="27" width="62" height="30"/>
+                            <state key="normal" title="侧滑导航"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.71764705880000002" green="0.42745098040000001" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="37T-DC-HMc" firstAttribute="centerX" secondItem="3wF-Td-hbx" secondAttribute="centerX" id="9wz-Oj-P7y"/>
+                        <constraint firstItem="37T-DC-HMc" firstAttribute="centerY" secondItem="3wF-Td-hbx" secondAttribute="centerY" constant="10" id="NF4-rB-79E"/>
+                        <constraint firstAttribute="height" constant="64" id="TKE-vv-L5S"/>
+                    </constraints>
+                </view>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Tj7-Az-roA">
+                    <rect key="frame" x="0.0" y="64" width="439" height="386"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Xkk-Rv-CWd">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="ojR-rU-7hh"/>
+                    </connections>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Tj7-Az-roA" secondAttribute="bottom" id="7nr-Gg-9oY"/>
+                <constraint firstItem="Tj7-Az-roA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="GkY-Gq-rtE"/>
+                <constraint firstAttribute="trailing" secondItem="Tj7-Az-roA" secondAttribute="trailing" id="YnE-fS-4Si"/>
+                <constraint firstItem="Tj7-Az-roA" firstAttribute="top" secondItem="3wF-Td-hbx" secondAttribute="bottom" id="ZYS-3E-otW"/>
+                <constraint firstItem="3wF-Td-hbx" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="dur-ee-Cnf"/>
+                <constraint firstAttribute="trailing" secondItem="3wF-Td-hbx" secondAttribute="trailing" id="hua-Tu-Jpw"/>
+                <constraint firstItem="3wF-Td-hbx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ld3-aE-m2h"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="65.5" y="-54"/>
+        </view>
+    </objects>
+</document>
