@@ -6,17 +6,6 @@ https://github.com/lishengbing/swift3.0-XJDragerDemo
 https://github.com/lishengbing/XJDragViewController
 
 
->>>>>>swift版本链接
->> github链接:
->> https://github.com/lishengbing/XJQRCodeToolDemo
-
->> 链接:
->> https://github.com/lishengbing/swift3.0-XJDragerDemo
-
-
->> my.oschina.com链接：
->> https://my.oschina.net/shengbingli/blog/787809
-
 
 >>![XJDmain](https://github.com/lishengbing/swift3.0-XJDragerDemo/blob/master/swift3.0-%E4%BE%A7%E6%BB%91%E5%AE%8C%E7%BE%8E/swift3.0-%E4%BE%A7%E6%BB%91%E5%AE%8C%E7%BE%8E/a1.gif)
 
@@ -60,5 +49,18 @@ addChildViewController(leftVc)
 leftPanClick(btn: btn)
 }
 }
+
+
+>> 友情链接：
+>>>>>>swift版本链接
+>> github链接:
+>> https://github.com/lishengbing/XJQRCodeToolDemo
+
+>> 链接:
+>> https://github.com/lishengbing/swift3.0-XJDragerDemo
+
+
+>> my.oschina.com链接：
+>> https://my.oschina.net/shengbingli/blog/787809
 
 
