@@ -3,6 +3,8 @@ swift3.0完美侧滑
 
 >> github链接:
 >> https://github.com/lishengbing/XJQRCodeToolDemo
+
+>> 链接:
 >> https://github.com/lishengbing/swift3.0-XJDragerDemo
 
 
