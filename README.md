@@ -1,5 +1,6 @@
 # swift3.0-XJDragerDemo
 swift3.0完美侧滑
+https://github.com/lishengbing/swift3.0-XJDragerDemo
 
 >>>>>>oc版本链接:
 https://github.com/lishengbing/XJDragViewController
